@@ -61,8 +61,11 @@ const LicenseTypes = () => {
         </div>
 
         <div className="text-center">
-          <Button 
+          <Button
             size="lg"
+            onClick={() => {
+              window.location.href = "https://hub-vert-eight.vercel.app/";
+            }}
             className="bg-primary hover:bg-accent text-primary-foreground font-semibold px-8"
           >
             Ir para Solicitação de Licença →
