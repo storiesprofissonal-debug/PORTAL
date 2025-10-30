@@ -12,13 +12,18 @@ const Hero = () => {
           <p className="text-base sm:text-lg md:text-xl mb-8 text-primary-foreground/90 font-body leading-relaxed">
             Sistema oficial do Governo do Estado de São Paulo para solicitação e gestão de licenças de ambulantes e comerciantes eventuais.
           </p>
+
           <Button 
             size="lg"
+            onClick={() => {
+              window.location.href = "https://hub-vert-eight.vercel.app/";
+            }}
             className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold py-6 px-8 text-lg w-full sm:w-auto shadow-lg transition-all duration-200"
           >
             <FileText className="mr-2 h-5 w-5" />
             Solicitar Licença Comercial
           </Button>
+
         </div>
       </div>
     </section>
