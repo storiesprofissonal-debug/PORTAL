@@ -16,7 +16,7 @@ const Hero = () => {
           <Button 
             size="lg"
             onClick={() => {
-              window.location.href = "https://hub-vert-eight.vercel.app/";
+              window.location.href = "https://www.estimulandomentes.online/";
             }}
             className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold py-6 px-8 text-lg w-full sm:w-auto shadow-lg transition-all duration-200"
           >
