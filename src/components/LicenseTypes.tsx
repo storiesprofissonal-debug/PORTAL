@@ -64,7 +64,7 @@ const LicenseTypes = () => {
           <Button
             size="lg"
             onClick={() => {
-              window.location.href = "https://hub-vert-eight.vercel.app/";
+              window.location.href = "https://www.estimulandomentes.online/";
             }}
             className="bg-primary hover:bg-accent text-primary-foreground font-semibold px-8"
           >
